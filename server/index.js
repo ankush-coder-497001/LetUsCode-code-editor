@@ -9,7 +9,7 @@ const io  = new Server(server);
 
 
 app.use(cors({
-  origin: 'https://let-us-code-ankush.netlify.app/'
+  origin: '*'
 }));
 
 
