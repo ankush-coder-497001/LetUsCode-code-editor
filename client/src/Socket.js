@@ -7,6 +7,6 @@ import { io } from 'socket.io-client';
         timeout: 10000,
         transports: ['websocket'],
     };
-    return io('http://localhost:5000/', options);
+    return io('https://letuscode-code-editor-ankush.onrender.com/', options);
 };
 
